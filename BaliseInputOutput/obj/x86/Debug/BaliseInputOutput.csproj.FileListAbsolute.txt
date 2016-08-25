@@ -1,0 +1,13 @@
+C:\Users\john\AppData\Local\Temporary Projects\BaliseInputOutput\bin\Debug\BaliseInputOutput.exe
+C:\Users\john\AppData\Local\Temporary Projects\BaliseInputOutput\bin\Debug\BaliseInputOutput.pdb
+C:\Users\john\AppData\Local\Temporary Projects\BaliseInputOutput\obj\x86\Debug\MainWindow.baml
+C:\Users\john\AppData\Local\Temporary Projects\BaliseInputOutput\obj\x86\Debug\MainWindow.g.cs
+C:\Users\john\AppData\Local\Temporary Projects\BaliseInputOutput\obj\x86\Debug\App.g.cs
+C:\Users\john\AppData\Local\Temporary Projects\BaliseInputOutput\obj\x86\Debug\BaliseInputOutput_MarkupCompile.cache
+C:\Users\john\AppData\Local\Temporary Projects\BaliseInputOutput\obj\x86\Debug\BaliseInputOutput.g.resources
+C:\Users\john\AppData\Local\Temporary Projects\BaliseInputOutput\obj\x86\Debug\BaliseInputOutput.Properties.Resources.resources
+C:\Users\john\AppData\Local\Temporary Projects\BaliseInputOutput\obj\x86\Debug\BaliseInputOutput.csproj.GenerateResource.Cache
+C:\Users\john\AppData\Local\Temporary Projects\BaliseInputOutput\obj\x86\Debug\BaliseInputOutput.exe
+C:\Users\john\AppData\Local\Temporary Projects\BaliseInputOutput\obj\x86\Debug\BaliseInputOutput.pdb
+C:\Users\john\Desktop\mhSeo\Projects\BaliseInputOutput\BaliseInputOutput\obj\x86\Debug\BaliseInputOutput.exe
+C:\Users\john\Desktop\mhSeo\Projects\BaliseInputOutput\BaliseInputOutput\obj\x86\Debug\BaliseInputOutput.pdb
