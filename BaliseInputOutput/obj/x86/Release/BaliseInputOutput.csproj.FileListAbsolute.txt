@@ -1,0 +1,13 @@
+C:\Users\john\Desktop\mhSeo\Projects\BaliseInputOutput\BaliseInputOutput\bin\Release\BaliseInputOutput.exe
+C:\Users\john\Desktop\mhSeo\Projects\BaliseInputOutput\BaliseInputOutput\bin\Release\BaliseInputOutput.pdb
+C:\Users\john\Desktop\mhSeo\Projects\BaliseInputOutput\BaliseInputOutput\bin\Release\WPFToolkit.dll
+C:\Users\john\Desktop\mhSeo\Projects\BaliseInputOutput\BaliseInputOutput\bin\Release\WPFToolkit.pdb
+C:\Users\john\Desktop\mhSeo\Projects\BaliseInputOutput\BaliseInputOutput\obj\x86\Release\MainWindow.baml
+C:\Users\john\Desktop\mhSeo\Projects\BaliseInputOutput\BaliseInputOutput\obj\x86\Release\MainWindow.g.cs
+C:\Users\john\Desktop\mhSeo\Projects\BaliseInputOutput\BaliseInputOutput\obj\x86\Release\App.g.cs
+C:\Users\john\Desktop\mhSeo\Projects\BaliseInputOutput\BaliseInputOutput\obj\x86\Release\BaliseInputOutput_MarkupCompile.cache
+C:\Users\john\Desktop\mhSeo\Projects\BaliseInputOutput\BaliseInputOutput\obj\x86\Release\BaliseInputOutput.g.resources
+C:\Users\john\Desktop\mhSeo\Projects\BaliseInputOutput\BaliseInputOutput\obj\x86\Release\BaliseInputOutput.Properties.Resources.resources
+C:\Users\john\Desktop\mhSeo\Projects\BaliseInputOutput\BaliseInputOutput\obj\x86\Release\BaliseInputOutput.csproj.GenerateResource.Cache
+C:\Users\john\Desktop\mhSeo\Projects\BaliseInputOutput\BaliseInputOutput\obj\x86\Release\BaliseInputOutput.exe
+C:\Users\john\Desktop\mhSeo\Projects\BaliseInputOutput\BaliseInputOutput\obj\x86\Release\BaliseInputOutput.pdb

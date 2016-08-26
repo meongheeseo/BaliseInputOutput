@@ -4,11 +4,11 @@
 winexe
 C#
 .cs
-C:\Users\john\Desktop\mhSeo\Projects\BaliseInputOutput\BaliseInputOutput\obj\x86\Debug\
+C:\Users\john\Desktop\mhSeo\Projects\BaliseInputOutput\BaliseInputOutput\obj\x86\Release\
 BaliseInputOutput
 none
 false
-DEBUG;TRACE
+TRACE
 C:\Users\john\Desktop\mhSeo\Projects\BaliseInputOutput\BaliseInputOutput\App.xaml
 11151548125
 
