@@ -23,6 +23,19 @@ namespace BaliseInputOutput
         public MainWindow()
         {
             InitializeComponent();
+            progressLabel.Text = String.Format("{0}%", progressBar.Value);
+        }
+
+        private void progressBar_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            progressLabel.Text = String.Format("{0}%", progressBar.Value);
+        }
+
+        
+        private void options_btn_Click(object sender, RoutedEventArgs e)
+        {
+            OptionPopup popup = new OptionPopup();
+            popup.ShowDialog();
         }
     }
 }

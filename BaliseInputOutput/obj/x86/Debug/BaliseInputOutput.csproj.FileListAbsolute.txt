@@ -24,3 +24,5 @@ C:\Users\john\Desktop\mhSeo\Projects\BaliseInputOutput\BaliseInputOutput\obj\x86
 C:\Users\john\Desktop\mhSeo\Projects\BaliseInputOutput\BaliseInputOutput\obj\x86\Debug\BaliseInputOutput.g.resources
 C:\Users\john\Desktop\mhSeo\Projects\BaliseInputOutput\BaliseInputOutput\obj\x86\Debug\BaliseInputOutput.Properties.Resources.resources
 C:\Users\john\Desktop\mhSeo\Projects\BaliseInputOutput\BaliseInputOutput\obj\x86\Debug\BaliseInputOutput.csproj.GenerateResource.Cache
+C:\Users\john\Desktop\mhSeo\Projects\BaliseInputOutput\BaliseInputOutput\obj\x86\Debug\OptionPopup.baml
+C:\Users\john\Desktop\mhSeo\Projects\BaliseInputOutput\BaliseInputOutput\obj\x86\Debug\OptionPopup.g.cs

@@ -22,9 +22,9 @@
             <Button Content="Color" Name="colort_btn" Height="23" Width="75" HorizontalAlignment="Center" Grid.Column="4"/>
             <Button Content="Load" Name="load_btn" Height="23" Width="75" HorizontalAlignment="Center" Grid.Column="5"/>
             <Button Content="Print" Name="print_btn" Height="23" Width="75" HorizontalAlignment="Center" Grid.Column="6"/>
-            <Button Content="Options" Name="options_btn" Height="23" Width="75" HorizontalAlignment="Center" Grid.Column="7"/>
+            <Button Content="Options" Name="options_btn" Height="23" Width="75" HorizontalAlignment="Center" Grid.Column="7" Click="options_btn_Click" />
         </Grid>
-        <ProgressBar Height="25" HorizontalAlignment="Center" Margin="12,45,12,0" Name="progressBar" VerticalAlignment="Top" Width="954" />
+        <ProgressBar Height="25" HorizontalAlignment="Center" Margin="12,45,12,0" Name="progressBar" VerticalAlignment="Top" Width="954" ValueChanged="progressBar_ValueChanged" />
         <TextBlock Height="22" HorizontalAlignment="Center" Margin="0,49,0,0" Name="progressLabel" TextAlignment="Center" VerticalAlignment="Top" Width="228" />
         <RichTextBox Height="345" HorizontalAlignment="Center" Margin="12,89,616,0" Name="rawdata_txt" VerticalAlignment="Top" Width="350">
             <RichTextBox.Resources>
