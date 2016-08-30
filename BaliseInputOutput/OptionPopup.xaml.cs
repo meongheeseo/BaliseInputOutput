@@ -18,10 +18,29 @@ namespace BaliseInputOutput
     /// </summary>
     public partial class OptionPopup : Window
     {
-        public OptionPopup()
+        public String min;
+        public String max;
+        public String steps;
+        public String timeInterval;
+        public String comport;
+        
+        public OptionPopup(String min, String max, String steps, String timeInterval, String comport)
         {
             InitializeComponent();
             Init_combobox();
+
+            this.min = min;
+            this.max = max;
+            this.steps = steps;
+            this.timeInterval = timeInterval;
+            this.comport = comport;
+
+            output_min.Text = this.min;
+            output_max.Text = this.max;
+            stepsize.Text = this.steps;
+            interval.Text = this.timeInterval;
+
+            if (comport != "") Adamcomport.Text = comport;
         }
 
         private void Init_combobox()
@@ -58,6 +77,21 @@ namespace BaliseInputOutput
             };
 
             Adamcomport.ItemsSource = items;
+        }
+
+        private void cancel_btn_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void save_btn_Click(object sender, RoutedEventArgs e)
+        {
+            this.min = output_min.Text;
+            this.max = output_max.Text;
+            this.steps = stepsize.Text;
+            this.timeInterval = interval.Text;
+            this.comport = Adamcomport.Text;
+            this.Close();
         }
     }
 }

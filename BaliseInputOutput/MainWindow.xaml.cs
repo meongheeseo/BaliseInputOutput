@@ -31,11 +31,22 @@ namespace BaliseInputOutput
             progressLabel.Text = String.Format("{0}%", progressBar.Value);
         }
 
+        String min = "-5.00";
+        String max = "-1.00";
+        String totstep = "50";
+        String timeInterval = "1000";
+        String Adamcomp = "";
         
         private void options_btn_Click(object sender, RoutedEventArgs e)
         {
-            OptionPopup popup = new OptionPopup();
+            OptionPopup popup = new OptionPopup(min, max, totstep, timeInterval, Adamcomp);
             popup.ShowDialog();
+
+            min = popup.min;
+            max = popup.max;
+            totstep = popup.steps;
+            timeInterval = popup.timeInterval;
+            Adamcomp = popup.comport;
         }
     }
 }
