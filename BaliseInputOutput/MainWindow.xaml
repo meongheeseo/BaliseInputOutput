@@ -15,10 +15,10 @@
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
-            <Button Content="Reset" Name="reset_btn" Height="23" Width="75" HorizontalAlignment="Center" Grid.Column="0"/>
+            <Button Content="Reset" Name="reset_btn" Height="23" Width="75" HorizontalAlignment="Center" Grid.Column="0" Click="reset_btn_Click" />
             <Button Content="Start" Name="start_btn" Height="23" Width="75" HorizontalAlignment="Center" Grid.Column="1"/>
             <Button Content="Brake" Name="brake_btn" Height="23" Width="75" HorizontalAlignment="Center" Grid.Column="2"/>
-            <Button Content="Save" Name="save_btn" Height="23" Width="75" HorizontalAlignment="Center" Grid.Column="3"/>
+            <Button Content="Save" Name="save_btn" Height="23" Width="75" HorizontalAlignment="Center" Grid.Column="3" Click="save_btn_Click" />
             <Button Content="Color" Name="colort_btn" Height="23" Width="75" HorizontalAlignment="Center" Grid.Column="4"/>
             <Button Content="Load" Name="load_btn" Height="23" Width="75" HorizontalAlignment="Center" Grid.Column="5"/>
             <Button Content="Print" Name="print_btn" Height="23" Width="75" HorizontalAlignment="Center" Grid.Column="6"/>

@@ -86,12 +86,77 @@ namespace BaliseInputOutput
 
         private void save_btn_Click(object sender, RoutedEventArgs e)
         {
-            this.min = output_min.Text;
-            this.max = output_max.Text;
-            this.steps = stepsize.Text;
-            this.timeInterval = interval.Text;
-            this.comport = Adamcomport.Text;
-            this.Close();
+            if (!boundaryCheck())
+            {
+                MessageBox.Show("Highlighted Properties are out of bounds.", "Warning", MessageBoxButton.OK, MessageBoxImage.Warning);
+            }
+            else
+            {
+                this.min = output_min.Text;
+                this.max = output_max.Text;
+                this.steps = stepsize.Text;
+                this.timeInterval = interval.Text;
+                this.comport = Adamcomport.Text;
+                this.Close();
+            }
+        }
+
+        // ------------------------------------------------------------
+        //               OPTION VALUES BOUNDARY CHECK                 |
+        // ------------------------------------------------------------
+        private Boolean boundaryCheck()
+        {
+            outputrange_label.Foreground = System.Windows.Media.Brushes.Black;
+            min_label.Foreground = System.Windows.Media.Brushes.Black;
+            max_label.Foreground = System.Windows.Media.Brushes.Black;
+            stepsize_label.Foreground = System.Windows.Media.Brushes.Black;
+            interval_label.Foreground = System.Windows.Media.Brushes.Black;
+            comport_label.Foreground = System.Windows.Media.Brushes.Black;
+
+            Boolean result = true;
+
+            double _min, _max, _steps, _interval;
+            _min = Double.Parse(output_min.Text);
+            _max = Double.Parse(output_max.Text);
+            _steps = Double.Parse(stepsize.Text);
+            _interval = Double.Parse(interval.Text);
+
+            if (!(_min >= -5.00 && _min <= 0.00))
+            {
+                result = false;
+                min_label.Foreground = System.Windows.Media.Brushes.Red;
+                outputrange_label.Foreground = System.Windows.Media.Brushes.Red;
+            }
+            if (!(_max >= -5.00 && _max <= 0.00))
+            {
+                result = false;
+                max_label.Foreground = System.Windows.Media.Brushes.Red;
+                outputrange_label.Foreground = System.Windows.Media.Brushes.Red;
+            }
+            if (_min >= _max)
+            {
+                result = false;
+                min_label.Foreground = System.Windows.Media.Brushes.Red;
+                max_label.Foreground = System.Windows.Media.Brushes.Red;
+                outputrange_label.Foreground = System.Windows.Media.Brushes.Red;
+            }
+            if (!(_steps >= 20 && _steps <= 100))
+            {
+                result = false;
+                stepsize_label.Foreground = System.Windows.Media.Brushes.Red;
+            }
+            if (!(_interval >= 100 && _interval <= 2000))
+            {
+                result = false;
+                interval_label.Foreground = System.Windows.Media.Brushes.Red;
+            }
+            if (Adamcomport.Text == "")
+            {
+                result = false;
+                comport_label.Foreground = System.Windows.Media.Brushes.Red;
+            }
+
+            return result;
         }
     }
 }

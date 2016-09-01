@@ -3,17 +3,17 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="OptionPopup" Height="274" Width="314">
     <Grid>
-        <Label Content="ADAM-4024 Output Range" FontWeight="Bold" Height="28" HorizontalAlignment="Center" Margin="12,9,111,0" Name="label1" VerticalAlignment="Top" Width="169" />
-        <Label Content="Total Step Size:" FontWeight="Bold" Height="28" HorizontalAlignment="Center" Margin="12,76,172,0" Name="label2" VerticalAlignment="Top" Width="107" />
-        <Label Content="Min:" Height="28" FontSize="11" HorizontalAlignment="Center" Margin="22,29,225,0" Name="label3" VerticalAlignment="Top" />
+        <Label Content="ADAM-4024 Output Range" FontWeight="Bold" Height="28" HorizontalAlignment="Center" Margin="12,9,111,0" Name="outputrange_label" VerticalAlignment="Top" Width="169" />
+        <Label Content="Total Step Size:" FontWeight="Bold" Height="28" HorizontalAlignment="Center" Margin="12,76,172,0" Name="stepsize_label" VerticalAlignment="Top" Width="107" />
+        <Label Content="Min:" Height="28" FontSize="11" HorizontalAlignment="Center" Margin="22,29,225,0" Name="min_label" VerticalAlignment="Top" />
         <TextBox Height="22" HorizontalAlignment="Center" TextAlignment="Center" Margin="59,32,158,0" Name="output_min" VerticalAlignment="Top" Width="75" />
-        <Label Content="Max:" Height="28" FontSize="11" HorizontalAlignment="Center" Margin="155,29,104,0" Name="label6" VerticalAlignment="Top" />
+        <Label Content="Max:" Height="28" FontSize="11" HorizontalAlignment="Center" Margin="155,29,104,0" Name="max_label" VerticalAlignment="Top" />
         <TextBox Height="22" HorizontalAlignment="Center" TextAlignment="Center" Name="output_max" VerticalAlignment="Top" Width="75" Margin="188,32,30,0" />
         <TextBox Height="23" HorizontalAlignment="Center" TextAlignment="Center" Margin="170,78,12,0" Name="stepsize" VerticalAlignment="Top" Width="110" />
-        <Label Content="Measurement Interval:" FontWeight="Bold" Height="28" HorizontalAlignment="Center" Margin="12,117,142,0" Name="label4" VerticalAlignment="Top" Width="138" />
+        <Label Content="Measurement Interval:" FontWeight="Bold" Height="28" HorizontalAlignment="Center" Margin="12,117,142,0" Name="interval_label" VerticalAlignment="Top" Width="138" />
         <TextBox Height="23" HorizontalAlignment="Center" TextAlignment="Center" Margin="170,117,30,0" Name="interval" VerticalAlignment="Top" Width="92" />
-        <Label Content="ADAM-4024 COM Port:" FontWeight="Bold" Height="28" HorizontalAlignment="Center" Margin="12,159,126,0" Name="label5" VerticalAlignment="Top" Width="154" />
-        <ComboBox Height="23" HorizontalAlignment="Center" Margin="170,159,12,0" Name="Adamcomport" VerticalAlignment="Top" Width="110" IsEditable="True" />
+        <Label Content="ADAM-4024 COM Port:" FontWeight="Bold" Height="28" HorizontalAlignment="Center" Margin="12,159,126,0" Name="comport_label" VerticalAlignment="Top" Width="154" />
+        <ComboBox Height="23" HorizontalAlignment="Center" Margin="170,159,12,0" Name="Adamcomport" VerticalAlignment="Top" Width="110" />
         <Label Content="V" FontSize="11" Height="28" HorizontalAlignment="Center" Margin="133,29,142,0" Name="label7" VerticalAlignment="Top" />
         <Label Content="V" FontSize="11" Height="28" HorizontalAlignment="Center" Margin="261,31,14,0" Name="label8" VerticalAlignment="Top" />
         <Label Content="ms" FontSize="11" Height="28" HorizontalAlignment="Center" Margin="261,116,0,0" Name="label9" VerticalAlignment="Top" Width="31" />
